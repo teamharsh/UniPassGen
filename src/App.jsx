@@ -19,7 +19,12 @@ const App = () => {
     }
 
     setGeneratedPassword(newPassword);
-  }, [passwordLength, includeNumbers, includeSpecialChars, setGeneratedPassword]);
+  }, [
+    passwordLength,
+    includeNumbers,
+    includeSpecialChars,
+    setGeneratedPassword,
+  ]);
 
   useEffect(() => {
     generatePassword();
@@ -78,10 +83,13 @@ const App = () => {
             defaultChecked={includeSpecialChars}
             id="char"
             onClick={() => {
-              setIncludeSpecialChars((prevIncludeSpecialChars) => !prevIncludeSpecialChars);
+              setIncludeSpecialChars(
+                (prevIncludeSpecialChars) => !prevIncludeSpecialChars
+              );
             }}
           />
           <label htmlFor="char" className="text-gray-400">
+            Include Numbers
           </label>
         </div>
       </div>
