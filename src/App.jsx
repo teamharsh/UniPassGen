@@ -75,7 +75,7 @@ const App = () => {
             }}
           />
           <label htmlFor="number" className="text-gray-400">
-            Include Numbers
+            Numbers
           </label>
           <input
             type="checkbox"
@@ -89,7 +89,8 @@ const App = () => {
             }}
           />
           <label htmlFor="char" className="text-gray-400">
-            Include Numbers
+            Special
+            Chars
           </label>
         </div>
       </div>
