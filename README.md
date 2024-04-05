@@ -13,7 +13,6 @@ This is a simple React application that allows users to generate unique and secu
 - React with Vite
 - Tailwind CSS
 - JavaScript
-- HTML
 
 ## How to Use
 
